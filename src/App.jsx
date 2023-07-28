@@ -1,3 +1,10 @@
-import "./App.css";
+import ContactList from "./component/ContactList";
 
-export default App;
+export default function App() {
+  return (
+    <div className="App">
+      <h1>Contact List Application</h1>
+      <ContactList />
+    </div>
+  );
+}
